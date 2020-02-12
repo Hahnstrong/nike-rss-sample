@@ -20,8 +20,11 @@ class RSSFeedViewController: UIViewController, UITableViewDelegate, UITableViewD
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view = tableView
         tableView.delegate = self
         tableView.dataSource = self
+        
+        print(1)
         
         getItunesAlbums()
     }
@@ -32,30 +35,45 @@ class RSSFeedViewController: UIViewController, UITableViewDelegate, UITableViewD
         
         URLSession.shared.dataTask(with: url) { (data, _, error) in
             if let error = error {
-                NSLog("There was an error as dataTask function began: \(error)")
+                print("Error: \(error)")
                 return
             }
             
             guard let data = data,
-                let responseDataString = String(data: data, encoding: .utf8),
-                let jsonDictionary = (try? JSONSerialization.jsonObject(with: data, options: .allowFragments)) as? [String: Any],
-                let results = jsonDictionary["results"] as? [[String: Any]]
-            else {  return }
-            
-            print(responseDataString)
+                let json = (try? JSONSerialization.jsonObject(with: data, options: .allowFragments)) as? [String: Any],
+                let feedDictionary = json["feed"] as? [String: Any],
+                let results = feedDictionary["results"] as? [[String: Any]] else { return }
+                
             self.itunesAlbums = results.compactMap {ItunesAlbum(dictionary: $0) }
-            self.tableView.reloadData()
-        }
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+            }
+        }.resume()
     }
     
     // MARK: - Table View Datasource Functions
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return itunesAlbums.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
+        
+        let album = itunesAlbums[indexPath.row]
+        cell.textLabel?.text = album.albumName + " - " + album.artistName
+        
+        guard let albumImageUrl = URL(string: album.artworkUrl100) else { return UITableViewCell() }
+        let data = try? Data(contentsOf: albumImageUrl)
+        if let imageData = data {
+            let image = UIImage(data: imageData)
+            cell.imageView?.image = image
+        }
+        
         return cell
     }
 }
@@ -70,8 +88,8 @@ class ItunesAlbum {
     let releaseDate: String
     let copyright: String
     
-    private let albumNameKey = "artistName"
-    private let artistNameKey = "name"
+    private let albumNameKey = "name"
+    private let artistNameKey = "artistName"
     private let artworkUrl100Key = "artworkUrl100"
 //    private let genreKey = "genres"
     private let releaseDateKey = "releaseDate"
