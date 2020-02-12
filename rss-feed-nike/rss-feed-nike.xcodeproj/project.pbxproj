@@ -14,6 +14,8 @@
 		631EDE2123F399A400ED2396 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631EDE1F23F399A400ED2396 /* LaunchScreen.storyboard */; };
 		631EDE2C23F399A500ED2396 /* rss_feed_nikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631EDE2B23F399A500ED2396 /* rss_feed_nikeTests.swift */; };
 		631EDE3723F399F100ED2396 /* RSSFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631EDE3623F399F100ED2396 /* RSSFeedViewController.swift */; };
+		631EDE3C23F3AE2400ED2396 /* RSSFeedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631EDE3B23F3AE2400ED2396 /* RSSFeedDetailViewController.swift */; };
+		631EDE3D23F3AE2400ED2396 /* RSSFeedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631EDE3B23F3AE2400ED2396 /* RSSFeedDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,7 @@
 		631EDE2B23F399A500ED2396 /* rss_feed_nikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rss_feed_nikeTests.swift; sourceTree = "<group>"; };
 		631EDE2D23F399A500ED2396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		631EDE3623F399F100ED2396 /* RSSFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedViewController.swift; sourceTree = "<group>"; };
+		631EDE3B23F3AE2400ED2396 /* RSSFeedDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,10 +83,11 @@
 			isa = PBXGroup;
 			children = (
 				631EDE1423F399A200ED2396 /* AppDelegate.swift */,
+				631EDE1623F399A200ED2396 /* SceneDelegate.swift */,
 				631EDE3623F399F100ED2396 /* RSSFeedViewController.swift */,
+				631EDE3B23F3AE2400ED2396 /* RSSFeedDetailViewController.swift */,
 				631EDE1A23F399A200ED2396 /* Main.storyboard */,
 				631EDE1F23F399A400ED2396 /* LaunchScreen.storyboard */,
-				631EDE1623F399A200ED2396 /* SceneDelegate.swift */,
 				631EDE2223F399A400ED2396 /* Info.plist */,
 				631EDE1D23F399A400ED2396 /* Assets.xcassets */,
 			);
@@ -202,6 +206,7 @@
 			files = (
 				631EDE3723F399F100ED2396 /* RSSFeedViewController.swift in Sources */,
 				631EDE1523F399A200ED2396 /* AppDelegate.swift in Sources */,
+				631EDE3C23F3AE2400ED2396 /* RSSFeedDetailViewController.swift in Sources */,
 				631EDE1723F399A200ED2396 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				631EDE3D23F3AE2400ED2396 /* RSSFeedDetailViewController.swift in Sources */,
 				631EDE2C23F399A500ED2396 /* rss_feed_nikeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

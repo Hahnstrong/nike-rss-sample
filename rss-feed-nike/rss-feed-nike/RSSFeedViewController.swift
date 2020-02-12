@@ -24,8 +24,6 @@ class RSSFeedViewController: UIViewController, UITableViewDelegate, UITableViewD
         tableView.delegate = self
         tableView.dataSource = self
         
-        print(1)
-        
         getItunesAlbums()
     }
     
@@ -65,7 +63,11 @@ class RSSFeedViewController: UIViewController, UITableViewDelegate, UITableViewD
         let cell = UITableViewCell()
         
         let album = itunesAlbums[indexPath.row]
-        cell.textLabel?.text = album.albumName + " - " + album.artistName
+        if album.albumName == album.artistName {
+            cell.textLabel?.text = album.albumName
+        } else {
+            cell.textLabel?.text = album.albumName + " - " + album.artistName
+        }
         
         guard let albumImageUrl = URL(string: album.artworkUrl100) else { return UITableViewCell() }
         let data = try? Data(contentsOf: albumImageUrl)
@@ -75,6 +77,13 @@ class RSSFeedViewController: UIViewController, UITableViewDelegate, UITableViewD
         }
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print(indexPath.row)
+        if indexPath.row == 2 {
+            self.navigationController?.pushViewController(RSSFeedDetailViewController(), animated: true)
+        }
     }
 }
 
