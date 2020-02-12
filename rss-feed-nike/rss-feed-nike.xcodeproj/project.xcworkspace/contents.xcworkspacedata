@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:nike-rss-sample.xcodeproj">
+      location = "self:rss-feed-nike.xcodeproj">
    </FileRef>
 </Workspace>

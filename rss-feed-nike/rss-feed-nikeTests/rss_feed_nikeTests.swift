@@ -1,15 +1,15 @@
 //
-//  nike_rss_sampleTests.swift
-//  nike-rss-sampleTests
+//  rss_feed_nikeTests.swift
+//  rss-feed-nikeTests
 //
 //  Created by Caleb Strong on 2/11/20.
 //  Copyright © 2020 Caleb Strong. All rights reserved.
 //
 
 import XCTest
-@testable import nike_rss_sample
+@testable import rss_feed_nike
 
-class nike_rss_sampleTests: XCTestCase {
+class rss_feed_nikeTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

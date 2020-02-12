@@ -7,48 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		631EDDD823F336E100ED2396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631EDDD723F336E100ED2396 /* AppDelegate.swift */; };
-		631EDDDA23F336E100ED2396 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631EDDD923F336E100ED2396 /* SceneDelegate.swift */; };
-		631EDDDC23F336E100ED2396 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631EDDDB23F336E100ED2396 /* ContentView.swift */; };
-		631EDDDE23F336E600ED2396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 631EDDDD23F336E600ED2396 /* Assets.xcassets */; };
-		631EDDE123F336E600ED2396 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 631EDDE023F336E600ED2396 /* Preview Assets.xcassets */; };
-		631EDDE423F336E600ED2396 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631EDDE223F336E600ED2396 /* LaunchScreen.storyboard */; };
-		631EDDEF23F336E600ED2396 /* nike_rss_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631EDDEE23F336E600ED2396 /* nike_rss_sampleTests.swift */; };
+		631EDE1523F399A200ED2396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631EDE1423F399A200ED2396 /* AppDelegate.swift */; };
+		631EDE1723F399A200ED2396 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631EDE1623F399A200ED2396 /* SceneDelegate.swift */; };
+		631EDE1C23F399A200ED2396 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631EDE1A23F399A200ED2396 /* Main.storyboard */; };
+		631EDE1E23F399A400ED2396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 631EDE1D23F399A400ED2396 /* Assets.xcassets */; };
+		631EDE2123F399A400ED2396 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631EDE1F23F399A400ED2396 /* LaunchScreen.storyboard */; };
+		631EDE2C23F399A500ED2396 /* rss_feed_nikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631EDE2B23F399A500ED2396 /* rss_feed_nikeTests.swift */; };
+		631EDE3723F399F100ED2396 /* RSSFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631EDE3623F399F100ED2396 /* RSSFeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		631EDDEB23F336E600ED2396 /* PBXContainerItemProxy */ = {
+		631EDE2823F399A500ED2396 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 631EDDCC23F336E000ED2396 /* Project object */;
+			containerPortal = 631EDE0923F399A200ED2396 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 631EDDD323F336E000ED2396;
-			remoteInfo = "nike-rss-sample";
+			remoteGlobalIDString = 631EDE1023F399A200ED2396;
+			remoteInfo = "rss-feed-nike";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		631EDDD423F336E100ED2396 /* nike-rss-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nike-rss-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		631EDDD723F336E100ED2396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		631EDDD923F336E100ED2396 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		631EDDDB23F336E100ED2396 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		631EDDDD23F336E600ED2396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		631EDDE023F336E600ED2396 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		631EDDE323F336E600ED2396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		631EDDE523F336E600ED2396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		631EDDEA23F336E600ED2396 /* nike-rss-sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nike-rss-sampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		631EDDEE23F336E600ED2396 /* nike_rss_sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nike_rss_sampleTests.swift; sourceTree = "<group>"; };
-		631EDDF023F336E600ED2396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631EDE1123F399A200ED2396 /* rss-feed-nike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rss-feed-nike.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		631EDE1423F399A200ED2396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		631EDE1623F399A200ED2396 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		631EDE1B23F399A200ED2396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		631EDE1D23F399A400ED2396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		631EDE2023F399A400ED2396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		631EDE2223F399A400ED2396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631EDE2723F399A500ED2396 /* rss-feed-nikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rss-feed-nikeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		631EDE2B23F399A500ED2396 /* rss_feed_nikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rss_feed_nikeTests.swift; sourceTree = "<group>"; };
+		631EDE2D23F399A500ED2396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631EDE3623F399F100ED2396 /* RSSFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		631EDDD123F336E000ED2396 /* Frameworks */ = {
+		631EDE0E23F399A200ED2396 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		631EDDE723F336E600ED2396 /* Frameworks */ = {
+		631EDE2423F399A500ED2396 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,113 +58,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		631EDDCB23F336E000ED2396 = {
+		631EDE0823F399A200ED2396 = {
 			isa = PBXGroup;
 			children = (
-				631EDDD623F336E100ED2396 /* nike-rss-sample */,
-				631EDDED23F336E600ED2396 /* nike-rss-sampleTests */,
-				631EDDD523F336E100ED2396 /* Products */,
+				631EDE1323F399A200ED2396 /* rss-feed-nike */,
+				631EDE2A23F399A500ED2396 /* rss-feed-nikeTests */,
+				631EDE1223F399A200ED2396 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		631EDDD523F336E100ED2396 /* Products */ = {
+		631EDE1223F399A200ED2396 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				631EDDD423F336E100ED2396 /* nike-rss-sample.app */,
-				631EDDEA23F336E600ED2396 /* nike-rss-sampleTests.xctest */,
+				631EDE1123F399A200ED2396 /* rss-feed-nike.app */,
+				631EDE2723F399A500ED2396 /* rss-feed-nikeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		631EDDD623F336E100ED2396 /* nike-rss-sample */ = {
+		631EDE1323F399A200ED2396 /* rss-feed-nike */ = {
 			isa = PBXGroup;
 			children = (
-				631EDDD723F336E100ED2396 /* AppDelegate.swift */,
-				631EDDD923F336E100ED2396 /* SceneDelegate.swift */,
-				631EDDDB23F336E100ED2396 /* ContentView.swift */,
-				631EDDDD23F336E600ED2396 /* Assets.xcassets */,
-				631EDDE223F336E600ED2396 /* LaunchScreen.storyboard */,
-				631EDDE523F336E600ED2396 /* Info.plist */,
-				631EDDDF23F336E600ED2396 /* Preview Content */,
+				631EDE1423F399A200ED2396 /* AppDelegate.swift */,
+				631EDE3623F399F100ED2396 /* RSSFeedViewController.swift */,
+				631EDE1A23F399A200ED2396 /* Main.storyboard */,
+				631EDE1F23F399A400ED2396 /* LaunchScreen.storyboard */,
+				631EDE1623F399A200ED2396 /* SceneDelegate.swift */,
+				631EDE2223F399A400ED2396 /* Info.plist */,
+				631EDE1D23F399A400ED2396 /* Assets.xcassets */,
 			);
-			path = "nike-rss-sample";
+			path = "rss-feed-nike";
 			sourceTree = "<group>";
 		};
-		631EDDDF23F336E600ED2396 /* Preview Content */ = {
+		631EDE2A23F399A500ED2396 /* rss-feed-nikeTests */ = {
 			isa = PBXGroup;
 			children = (
-				631EDDE023F336E600ED2396 /* Preview Assets.xcassets */,
+				631EDE2B23F399A500ED2396 /* rss_feed_nikeTests.swift */,
+				631EDE2D23F399A500ED2396 /* Info.plist */,
 			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		631EDDED23F336E600ED2396 /* nike-rss-sampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				631EDDEE23F336E600ED2396 /* nike_rss_sampleTests.swift */,
-				631EDDF023F336E600ED2396 /* Info.plist */,
-			);
-			path = "nike-rss-sampleTests";
+			path = "rss-feed-nikeTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		631EDDD323F336E000ED2396 /* nike-rss-sample */ = {
+		631EDE1023F399A200ED2396 /* rss-feed-nike */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 631EDDF323F336E600ED2396 /* Build configuration list for PBXNativeTarget "nike-rss-sample" */;
+			buildConfigurationList = 631EDE3023F399A500ED2396 /* Build configuration list for PBXNativeTarget "rss-feed-nike" */;
 			buildPhases = (
-				631EDDD023F336E000ED2396 /* Sources */,
-				631EDDD123F336E000ED2396 /* Frameworks */,
-				631EDDD223F336E000ED2396 /* Resources */,
+				631EDE0D23F399A200ED2396 /* Sources */,
+				631EDE0E23F399A200ED2396 /* Frameworks */,
+				631EDE0F23F399A200ED2396 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "nike-rss-sample";
-			productName = "nike-rss-sample";
-			productReference = 631EDDD423F336E100ED2396 /* nike-rss-sample.app */;
+			name = "rss-feed-nike";
+			productName = "rss-feed-nike";
+			productReference = 631EDE1123F399A200ED2396 /* rss-feed-nike.app */;
 			productType = "com.apple.product-type.application";
 		};
-		631EDDE923F336E600ED2396 /* nike-rss-sampleTests */ = {
+		631EDE2623F399A500ED2396 /* rss-feed-nikeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 631EDDF623F336E600ED2396 /* Build configuration list for PBXNativeTarget "nike-rss-sampleTests" */;
+			buildConfigurationList = 631EDE3323F399A500ED2396 /* Build configuration list for PBXNativeTarget "rss-feed-nikeTests" */;
 			buildPhases = (
-				631EDDE623F336E600ED2396 /* Sources */,
-				631EDDE723F336E600ED2396 /* Frameworks */,
-				631EDDE823F336E600ED2396 /* Resources */,
+				631EDE2323F399A500ED2396 /* Sources */,
+				631EDE2423F399A500ED2396 /* Frameworks */,
+				631EDE2523F399A500ED2396 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				631EDDEC23F336E600ED2396 /* PBXTargetDependency */,
+				631EDE2923F399A500ED2396 /* PBXTargetDependency */,
 			);
-			name = "nike-rss-sampleTests";
-			productName = "nike-rss-sampleTests";
-			productReference = 631EDDEA23F336E600ED2396 /* nike-rss-sampleTests.xctest */;
+			name = "rss-feed-nikeTests";
+			productName = "rss-feed-nikeTests";
+			productReference = 631EDE2723F399A500ED2396 /* rss-feed-nikeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		631EDDCC23F336E000ED2396 /* Project object */ = {
+		631EDE0923F399A200ED2396 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Caleb Strong";
 				TargetAttributes = {
-					631EDDD323F336E000ED2396 = {
+					631EDE1023F399A200ED2396 = {
 						CreatedOnToolsVersion = 11.3;
 					};
-					631EDDE923F336E600ED2396 = {
+					631EDE2623F399A500ED2396 = {
 						CreatedOnToolsVersion = 11.3;
-						TestTargetID = 631EDDD323F336E000ED2396;
+						TestTargetID = 631EDE1023F399A200ED2396;
 					};
 				};
 			};
-			buildConfigurationList = 631EDDCF23F336E000ED2396 /* Build configuration list for PBXProject "nike-rss-sample" */;
+			buildConfigurationList = 631EDE0C23F399A200ED2396 /* Build configuration list for PBXProject "rss-feed-nike" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -172,29 +164,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 631EDDCB23F336E000ED2396;
-			productRefGroup = 631EDDD523F336E100ED2396 /* Products */;
+			mainGroup = 631EDE0823F399A200ED2396;
+			productRefGroup = 631EDE1223F399A200ED2396 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				631EDDD323F336E000ED2396 /* nike-rss-sample */,
-				631EDDE923F336E600ED2396 /* nike-rss-sampleTests */,
+				631EDE1023F399A200ED2396 /* rss-feed-nike */,
+				631EDE2623F399A500ED2396 /* rss-feed-nikeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		631EDDD223F336E000ED2396 /* Resources */ = {
+		631EDE0F23F399A200ED2396 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				631EDDE423F336E600ED2396 /* LaunchScreen.storyboard in Resources */,
-				631EDDE123F336E600ED2396 /* Preview Assets.xcassets in Resources */,
-				631EDDDE23F336E600ED2396 /* Assets.xcassets in Resources */,
+				631EDE2123F399A400ED2396 /* LaunchScreen.storyboard in Resources */,
+				631EDE1E23F399A400ED2396 /* Assets.xcassets in Resources */,
+				631EDE1C23F399A200ED2396 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		631EDDE823F336E600ED2396 /* Resources */ = {
+		631EDE2523F399A500ED2396 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,39 +196,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		631EDDD023F336E000ED2396 /* Sources */ = {
+		631EDE0D23F399A200ED2396 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				631EDDD823F336E100ED2396 /* AppDelegate.swift in Sources */,
-				631EDDDA23F336E100ED2396 /* SceneDelegate.swift in Sources */,
-				631EDDDC23F336E100ED2396 /* ContentView.swift in Sources */,
+				631EDE3723F399F100ED2396 /* RSSFeedViewController.swift in Sources */,
+				631EDE1523F399A200ED2396 /* AppDelegate.swift in Sources */,
+				631EDE1723F399A200ED2396 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		631EDDE623F336E600ED2396 /* Sources */ = {
+		631EDE2323F399A500ED2396 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				631EDDEF23F336E600ED2396 /* nike_rss_sampleTests.swift in Sources */,
+				631EDE2C23F399A500ED2396 /* rss_feed_nikeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		631EDDEC23F336E600ED2396 /* PBXTargetDependency */ = {
+		631EDE2923F399A500ED2396 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 631EDDD323F336E000ED2396 /* nike-rss-sample */;
-			targetProxy = 631EDDEB23F336E600ED2396 /* PBXContainerItemProxy */;
+			target = 631EDE1023F399A200ED2396 /* rss-feed-nike */;
+			targetProxy = 631EDE2823F399A500ED2396 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		631EDDE223F336E600ED2396 /* LaunchScreen.storyboard */ = {
+		631EDE1A23F399A200ED2396 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				631EDDE323F336E600ED2396 /* Base */,
+				631EDE1B23F399A200ED2396 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		631EDE1F23F399A400ED2396 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				631EDE2023F399A400ED2396 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -244,7 +244,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		631EDDF123F336E600ED2396 /* Debug */ = {
+		631EDE2E23F399A500ED2396 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -304,7 +304,7 @@
 			};
 			name = Debug;
 		};
-		631EDDF223F336E600ED2396 /* Release */ = {
+		631EDE2F23F399A500ED2396 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,121 +358,117 @@
 			};
 			name = Release;
 		};
-		631EDDF423F336E600ED2396 /* Debug */ = {
+		631EDE3123F399A500ED2396 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"nike-rss-sample/Preview Content\"";
 				DEVELOPMENT_TEAM = 6PU3T4WS7W;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "nike-rss-sample/Info.plist";
+				INFOPLIST_FILE = "rss-feed-nike/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.calebstrong.nike-rss-sample";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calebstrong.rss-feed-nike";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		631EDDF523F336E600ED2396 /* Release */ = {
+		631EDE3223F399A500ED2396 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"nike-rss-sample/Preview Content\"";
 				DEVELOPMENT_TEAM = 6PU3T4WS7W;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "nike-rss-sample/Info.plist";
+				INFOPLIST_FILE = "rss-feed-nike/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.calebstrong.nike-rss-sample";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calebstrong.rss-feed-nike";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		631EDDF723F336E600ED2396 /* Debug */ = {
+		631EDE3423F399A500ED2396 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6PU3T4WS7W;
-				INFOPLIST_FILE = "nike-rss-sampleTests/Info.plist";
+				INFOPLIST_FILE = "rss-feed-nikeTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.calebstrong.nike-rss-sampleTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calebstrong.rss-feed-nikeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nike-rss-sample.app/nike-rss-sample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rss-feed-nike.app/rss-feed-nike";
 			};
 			name = Debug;
 		};
-		631EDDF823F336E600ED2396 /* Release */ = {
+		631EDE3523F399A500ED2396 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6PU3T4WS7W;
-				INFOPLIST_FILE = "nike-rss-sampleTests/Info.plist";
+				INFOPLIST_FILE = "rss-feed-nikeTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.calebstrong.nike-rss-sampleTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calebstrong.rss-feed-nikeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nike-rss-sample.app/nike-rss-sample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rss-feed-nike.app/rss-feed-nike";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		631EDDCF23F336E000ED2396 /* Build configuration list for PBXProject "nike-rss-sample" */ = {
+		631EDE0C23F399A200ED2396 /* Build configuration list for PBXProject "rss-feed-nike" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				631EDDF123F336E600ED2396 /* Debug */,
-				631EDDF223F336E600ED2396 /* Release */,
+				631EDE2E23F399A500ED2396 /* Debug */,
+				631EDE2F23F399A500ED2396 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		631EDDF323F336E600ED2396 /* Build configuration list for PBXNativeTarget "nike-rss-sample" */ = {
+		631EDE3023F399A500ED2396 /* Build configuration list for PBXNativeTarget "rss-feed-nike" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				631EDDF423F336E600ED2396 /* Debug */,
-				631EDDF523F336E600ED2396 /* Release */,
+				631EDE3123F399A500ED2396 /* Debug */,
+				631EDE3223F399A500ED2396 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		631EDDF623F336E600ED2396 /* Build configuration list for PBXNativeTarget "nike-rss-sampleTests" */ = {
+		631EDE3323F399A500ED2396 /* Build configuration list for PBXNativeTarget "rss-feed-nikeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				631EDDF723F336E600ED2396 /* Debug */,
-				631EDDF823F336E600ED2396 /* Release */,
+				631EDE3423F399A500ED2396 /* Debug */,
+				631EDE3523F399A500ED2396 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 631EDDCC23F336E000ED2396 /* Project object */;
+	rootObject = 631EDE0923F399A200ED2396 /* Project object */;
 }
