@@ -80,10 +80,9 @@ class RSSFeedViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print(indexPath.row)
-        if indexPath.row == 2 {
-            self.navigationController?.pushViewController(RSSFeedDetailViewController(), animated: true)
-        }
+        let detailVC = RSSFeedDetailViewController()
+        detailVC.itunesAlbum = itunesAlbums[indexPath.row]
+        self.navigationController?.pushViewController(detailVC, animated: true)
     }
 }
 
@@ -93,28 +92,34 @@ class ItunesAlbum {
     let albumName: String
     let artistName: String
     let artworkUrl100: String
-//    let genre: String
+    let genre: [[String: Any]]
     let releaseDate: String
     let copyright: String
+    let artistUrl: String
     
     private let albumNameKey = "name"
     private let artistNameKey = "artistName"
     private let artworkUrl100Key = "artworkUrl100"
-//    private let genreKey = "genres"
+    private let genreKey = "genres"
     private let releaseDateKey = "releaseDate"
     private let copyrightKey = "copyright"
+    private let artistUrlKey = "artistUrl"
     
     init?(dictionary: [String: Any]) {
         guard let albumName = dictionary[albumNameKey] as? String,
             let artistName = dictionary[artistNameKey] as? String,
             let artworkUrl100 = dictionary[artworkUrl100Key] as? String,
+            let genre = dictionary[genreKey] as? [[String: Any]],
             let releaseDate = dictionary[releaseDateKey] as? String,
-            let copyright = dictionary[copyrightKey] as? String else { return nil }
+            let copyright = dictionary[copyrightKey] as? String,
+            let artistUrl = dictionary[artistUrlKey] as? String else { return nil }
         
         self.albumName = albumName
         self.artistName = artistName
         self.artworkUrl100 = artworkUrl100
+        self.genre = genre
         self.releaseDate = releaseDate
         self.copyright = copyright
+        self.artistUrl = artistUrl
     }
 }
