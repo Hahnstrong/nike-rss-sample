@@ -18,17 +18,33 @@ class rss_feed_nikeTests: XCTestCase {
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    func testJSONToObject() {
+        let testJson =  [
+            [ "genres": [
+                [ "genreId" : "2", "name" : "Pop", "url" : "url2" ],
+                [ "genreId" : "1", "name" : "Music", "url" : "url1" ]],
+              "artistUrl": "artisturl1",
+              "name": "To Die For",
+              "artworkUrl100": "arturl1",
+              "copyright": "A Capitol Records UK Release; ℗ 2020 Universal Music Operations Limited",
+              "releaseDate": "2020-05-01",
+              "artistName": "Sam Smith"
+            ],
+            [ "genres": [
+                [ "genreId" : "2", "name" : "Pop", "url" : "url2" ],
+                [ "genreId" : "1", "name" : "Music", "url" : "url1" ]],
+              "artistUrl": "artisturl2",
+              "name": "Gallery",
+              "artworkUrl100": "arturl2",
+              "copyright": "A Long Totally Real Copyright",
+              "releaseDate": "2017-04-14",
+              "artistName": "ARIZONA"
+            ]
+        ]
+        
+        let itunesTestAlbums = testJson.compactMap {ItunesAlbum(dictionary: $0) }
+        let album1 = itunesTestAlbums[0]
+        XCTAssertEqual(album1.albumName, "To Die For")
     }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }
